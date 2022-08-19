@@ -55,6 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['201121968769'] //ur owner number
+global.vcardowner = ['201027844506']
 global.ownername = "𝐾𝐻𝐻𝐹𝑈" //ur owner name
 global.ytname = "YT: khufu" //ur yt chanel name
 global.socialm = "o" //ur github or insta name
@@ -69,7 +70,7 @@ global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur we
 global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
 global.reactmoji = "😘" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "بوت استيكر جمدااان😂" //ur sticker watermark packname
+global.packname = "استيكر بوم تخ 😜" //ur sticker watermark packname
 global.author = "khufu +201121968769" //ur sticker watermark author
 
 //Bot theme media
