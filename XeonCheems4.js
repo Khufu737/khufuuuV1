@@ -1094,12 +1094,12 @@ const reactionMessage = {
                 const timestampe = speed();
 const latensie = speed() - timestampe
                 const menulist = `┌─❖
-│「 Hi 👋 」
+│「 hi😡 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+┌┤✑  انت مبسوط معانا? 😄
 │└────────────┈ ⳹
 │
-└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
+└─「 معلومات عن بوت😜 」       
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -8766,8 +8766,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://chat.whatsapp.com/GsbU5axJil5LbLlCKJkY2S',
+sourceUrl: "https://chat.whatsapp.com/GsbU5axJil5LbLlCKJkY2S"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
