@@ -69,7 +69,7 @@ global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur we
 global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
 global.reactmoji = "😘" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "استيكر بوم تخ 😜" //ur sticker watermark packname
+global.packname = "افجر بوت استيك😜" //ur sticker watermark packname
 global.author = "khufu +201121968769" //ur sticker watermark author
 
 //Bot theme media
@@ -114,7 +114,7 @@ global.mess = {
     bot: 'This Feature Is Only For Bot',
     wait: 'اصبر يحيوان بيحمل😂',
     linkm: 'Where is the link?',
-    error: 'ايرور 🙂',
+    error: 'ده هقر ده يكبتن متكتب عدل يعم🙂',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
