@@ -3534,7 +3534,7 @@ reply(`Send Image/Video With Caption ${prefix + command}\nVideo Duration 1-9 Sec
 }
 }
 break
-case 'swm': case 'take': case 'stickerwm': {
+case 'سرقه': case 'take': case 'stickerwm': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args.join(" ")) return reply(`Example :\nswm ${global.author}|${global.packname}`)
