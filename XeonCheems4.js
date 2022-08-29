@@ -6017,7 +6017,7 @@ fs.unlinkSync(ran)
 })
 }
 break
-case 'حولها فديو': case 'tovideo': {
+case 'حولهافديو': case 'tovideo': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return reply('Reply Image')
@@ -6030,7 +6030,7 @@ await XeonBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 
 await fs.unlinkSync(media)
 }
 break
-case 'حولها صوت': case 'toaudio': {
+case 'حولهاصوت': case 'toaudio': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!/video/.test(mime) && !/audio/.test(mime)) return reply(`Send/Reply Video/Audio You Want To Use As Audio With Caption ${prefix + command}`)
