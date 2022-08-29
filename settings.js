@@ -38,7 +38,7 @@ global.APIKeys = {
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -106,15 +106,15 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
+    admin: 'لازم تكون ادمن الاول 💗',
+    botAdmin: 'لازم بوت يكون ادمن الاول 🤓',
     owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
+    group: 'ميزه دي في رومات فقط ❤',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'اصبر يحيوان بيحمل😂',
-    linkm: 'Where is the link?',
-    error: 'ده هقر ده يكبتن متكتب عدل يعم🙂',
+    wait: 'استني شويه🌚',
+    linkm: 'فين لينك🤓',
+    error: 'ايرور🙂',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
