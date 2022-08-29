@@ -6067,7 +6067,7 @@ let audio = await toPTT(media, 'mp4')
 XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
 }
 break
-case 'togif': {
+case 'togif': case 'متحركه': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return reply('Reply Image')
