@@ -88,7 +88,7 @@ async function startXeonBotInc() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let xeonfek = await XeonBotInc.sendContact(callerId, global.owner)
-    XeonBotInc.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
+    XeonBotInc.sendMessage(callerId, { text: `ممنوع الاتصال خش كلم صاحب بوت عشان يفكو 😊❤️`}, { quoted : xeonfek })
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(callerId, "block")
     }
@@ -166,7 +166,7 @@ let docs = pickRandom(documents)
 memb = metadata.participants.length
 XeonWlcm = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
 XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
-                if (anu.action == 'add') {
+                if (anu.action == 'adda') {
                 const xeonbuffer = await getBuffer(ppuser)
                 let xeonName = num
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
@@ -177,7 +177,6 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 │「 الاخ ده دخل روم🤓」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  نورت 😂❤
-   │هاذا بوت 😜
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
@@ -206,7 +205,7 @@ mediaUrl: `${websitex}`
 }}
 }
 XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
-                } else if (anu.action == 'remove') {
+                } else if (anu.action == 'removee') {
                 	const xeonbuffer = await getBuffer(ppuser)
                     const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
@@ -216,9 +215,8 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     xeonbody = `┌─❖
 │「 البتاع ده طلع 😜」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  خلع من  
+   │✑  خرج من 👇
    │✑ ${metadata.subject}
-   │✑  وييييي😂
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
