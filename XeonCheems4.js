@@ -10552,4 +10552,47 @@ break
                     }
                     return !0
                 }
-			
+			//anti-tag
+const listTag = [`${global.ownertag}@s.whatsapp.net`]
+const partiNum = (m.mtype === 'extendedTextMessage') ? m.message.extendedTextMessage.contextInfo.participant : ''
+//anti-tag 2
+if (listTag.includes(partiNum)) {
+if (antitags === false) return
+if (!m.isGroup) return
+if (m.key.fromMe) return
+sendNye = fs.readFileSync('./XeonMedia/theme/yourtag.webp')
+XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
+XeonBotInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
+}
+//anti-tag 3
+if (budy.includes(`${global.ownertag}`)) {
+if (antitags === false) return
+if (!m.isGroup) return
+if (m.key.fromMe) return
+sendNye = fs.readFileSync('./XeonMedia/theme/yourtag.webp')
+XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
+XeonBotInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
+}
+		if (isCmd && budy.toLowerCase() != undefined) {
+		    if (m.chat.endsWith('broadcast')) return
+		    if (m.isBaileys) return
+		    let msgs = global.db.data.database
+		    if (!(budy.toLowerCase() in msgs)) return
+		    XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+		}
+        }
+        
+
+    } catch (err) {
+        m.reply(util.format(err))
+    }
+}
+
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update ${__filename}`))
+	delete require.cache[file]
+	require(file)
+})
