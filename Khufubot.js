@@ -3021,6 +3021,7 @@ break
             case 'linkgroup': case 'linkgc': case 'لينك': case 'grouplink': {
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+		    if (!isAdmins) return replay(`${mess.admin}`)
                 if (!m.isGroup) return replay(`${mess.group}`)
                 let response = await khufuBotInc.groupInviteCode(m.chat)
                 khufuBotInc.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\n${groupMetadata.subject} Group Link`, m, { detectLink: true })
@@ -4759,7 +4760,7 @@ case 'sound160':
 case 'sound161':
 if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-khufuy_buffer = await getBuffer(`https://github.com/DGkhufu/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+khufuy_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await khufuBotInc.sendMessage(m.chat, { audio: khufuy_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 case'glitch3':
