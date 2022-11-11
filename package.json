@@ -2,10 +2,10 @@
   "name": "CheemsBot-MD",
   "version": "4.0.0",
   "description": "Automated whatsapp md bot created using nodejs",
-  "main": "xeon.js",
+  "main": "khufu.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node xeon.js"
+    "start": "node khufu.js"
   },
   "keywords": [
     "termux",
@@ -17,7 +17,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "Xeon",
+  "author": "khufu",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.1.0",

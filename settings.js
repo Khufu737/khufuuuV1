@@ -43,7 +43,7 @@ global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //semt menu variants
-global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
+global.vidmenu = fs.readFileSync("./KhufuMedia/theme/Cheems-bot.mp4") //gif and video menu
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -54,29 +54,30 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['201223085465'] //ur owner number
-global.ownername = "نابليون" //ur owner name
+global.vcardowner = ['201121968769'] //ur owner number
+global.ownername = "𝐾𝐻𝐻𝐹𝑈" //ur owner name
 global.ytname = "YT: khufu" //ur yt chanel name
 global.socialm = "o" //ur github or insta name
 global.location = "Egypt" //ur location
 
 //bot bomdy 
-global.owner = ['201121968769','201223085465']
+global.owner = ['201121968769']
 global.ownertag = '201121968769' //ur tag number
-global.botname = 'ᴹᴿ᭄ نابليون×፝֟͜×' //ur bot name
+
+global.botname = 'ᴹᴿ᭄ Bot Whatsapp ×፝֟͜×' //ur bot name
 global.linkz = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur website to be displayed
 global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
 global.reactmoji = "💗" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "01121968769" //ur sticker watermark packname
-global.author = "خوفو ص المزعجين ☺️" //ur sticker watermark author
+global.author = "خوفو ص المزعجين ☺️ " //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['201121968769'] //ur premium numbers
@@ -101,24 +102,24 @@ global.ntilink = []
 
 //omther
 global.sessionName = 'session'
-global.antitags = true
+global.antitags = false
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'لازم تكون ادمن الاول 💗',
-    botAdmin: 'لازم بوت يكون ادمن الاول 🤓',
-    owner: 'ميزه دي ل مالك البوت فقط 💗',
-    group: 'ميزه دي في رومات فقط ❤',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'استني شويه🌚',
-    linkm: 'فين لينك🤓',
-    error: 'ايرور🙂',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    success: 'ضن✓',
+    admin: 'لازم تكون ادمن الاول ',
+    botAdmin: 'لازم اكون ادمن  الاول ',
+    owner: 'ميزه دي ل مالك البوت فقط ',
+    group: 'فقط في رومات ',
+    private: 'برايفت بس!',
+    bot: 'ميزه دي ل بوت فقط',
+    wait: 'استني ....',
+    linkm: 'فين لينك؟',
+    error: 'ايرور!!!!',
+    endLimit: 'تعالا بكره !',
+    ban: 'لا استطيع ارسال اي شئ لان مالك قام بحظر هاذا روم !',
+    nsfw: 'ميزه مقفوله خلي الادمن يشغلها!',
+    banChat: ''
 }
     global.limitawal = {
     premium: "Infinity",
@@ -133,7 +134,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
+global.thumb = fs.readFileSync('./KhufuMedia/theme/cheemspic.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
