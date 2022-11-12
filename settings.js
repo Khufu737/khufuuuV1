@@ -61,7 +61,7 @@ global.socialm = "o" //ur github or insta name
 global.location = "Egypt" //ur location
 
 //bot bomdy 
-global.owner = ['201121968769']
+global.owner = ['201556525349']
 global.ownertag = '201556525349' //ur tag number
 
 global.botname = 'ᴹᴿ᭄ Bot mohamed Whatsapp ×፝֟͜×' //ur bot name
