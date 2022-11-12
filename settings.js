@@ -54,8 +54,8 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['201121968769'] //ur owner number
-global.ownername = "MOHAMEDHASSAN" //ur owner name
+global.vcardowner = ['201556525349'] //ur owner number
+global.ownername = "MOHAMED HASSAN 🥰" //ur owner name
 global.ytname = "Y" //ur yt chanel name
 global.socialm = "o" //ur github or insta name
 global.location = "Egypt" //ur location
@@ -66,8 +66,10 @@ global.ownertag = '201556525349' //ur tag number
 
 global.botname = 'ᴹᴿ᭄ Bot mohamed Whatsapp ×፝֟͜×' //ur bot name
 global.linkz = "http://mohamed0hass3.sarhne.com" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur website to be displayed
-global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
+global.websitex = "hmohameduuuu630@gmail.com" //ur website to be displayed
+global.botscript = 'https://wa.me/+01556525349
+
+mohamed' //script link
 global.reactmoji = "💝" //ur menu react emoji
 global.themeemoji = "🥰" //ur theme emoji
 global.packname = "0155652549" //ur sticker watermark packname
