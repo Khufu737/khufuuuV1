@@ -45,24 +45,22 @@ global.available = true //auto available (true to on, false to off)
 //semt menu variants
 global.vidmenu = fs.readFileSync("./KhufuMedia/theme/Cheems-bot.mp4") //gif and video menu
 
-//documents variants
-global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+//documents variantsspreadsheetml.sheet'
 global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 global.doc4 = 'application/zip'
 global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['201121968769'] //ur owner number
-global.ownername = "𝐾𝐻𝐻𝐹𝑈" //ur owner name
-global.ytname = "YT: khufu" //ur yt chanel name
+عالمي . vcardowner   = [ '0201030982295' ] // رقم مالكك
+عالمي . ownername    =    "Mostef"    // اسم المالك الخاص بك
+عالمي . ytname     =     T : u "// اسم قناة ur yt
 global.socialm = "o" //ur github or insta name
 global.location = "Egypt" //ur location
 
 //bot bomdy 
-global.owner = ['201121968769']
-global.ownertag = '201121968769' //ur tag number
+عالمي . المالك  = [ '0201030982295' ]
+عالمي . ownertag  =  '0201030982295'  // رقم العلامة الخاصة بك
 
 global.botname = 'ᴹᴿ᭄ Bot Whatsapp ×፝֟͜×' //ur bot name
 global.linkz = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //your theme url which will be displayed on whatsapp
@@ -70,8 +68,8 @@ global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur we
 global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
 global.reactmoji = "💗" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "01121968769" //ur sticker watermark packname
-global.author = "خوفو ص المزعجين ☺️ " //ur sticker watermark author
+عالمي . packname  =  "0201030982295"  // اسم حزمة العلامة المائية الخاصة بملصقك
+عالمي . المؤلف           =           "☺️"          # القاءد          # مصطفي          // مؤلف العلامة المائية للملصق الخاص بك  
 
 //Bot theme media
 global.thum = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -80,8 +78,8 @@ global.err4r = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur error pi
 global.thumb = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['201121968769'] //ur premium numbers
-global.ntilinkytvid = []
+عالمي .premium  = [ '0201030982295' ] // أرقامك المميزة
+عالمي . ntilinkytvid  = []
 global.ntilinkytch = []
 global.ntilinkig = []
 global.ntilinkfb = []
