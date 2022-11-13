@@ -63,19 +63,12 @@ global.location = "Egypt" //ur location
 عالمي . ownertag  =  '0201030982295'  // رقم العلامة الخاصة بك
 
 global.botname = 'ᴹᴿ᭄ Bot Whatsapp ×፝֟͜×' //ur bot name
-global.linkz = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA" //ur website to be displayed
-global.botscript = 'https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ' //script link
-global.reactmoji = "💗" //ur menu react emoji
+global.linkz = "
 global.themeemoji = "🦄" //ur theme emoji
 عالمي . packname  =  "0201030982295"  // اسم حزمة العلامة المائية الخاصة بملصقك
 عالمي . المؤلف           =           "☺️"          # القاءد          # مصطفي          // مؤلف العلامة المائية للملصق الخاص بك  
 
-//Bot theme media
-global.thum = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
+//Bot theme mediathumb pic
 
 //damtabase
 عالمي .premium  = [ '0201030982295' ] // أرقامك المميزة
